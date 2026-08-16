@@ -1,0 +1,14 @@
+test_delete_defaults_to_one_document (test_animal_shelter_enhanced.AnimalShelterEnhancedTests.test_delete_defaults_to_one_document) ... ok
+test_delete_requires_explicit_confirmation (test_animal_shelter_enhanced.AnimalShelterEnhancedTests.test_delete_requires_explicit_confirmation) ... ok
+test_delete_with_confirmation (test_animal_shelter_enhanced.AnimalShelterEnhancedTests.test_delete_with_confirmation) ... ok
+test_read_applies_default_limit (test_animal_shelter_enhanced.AnimalShelterEnhancedTests.test_read_applies_default_limit) ... ok
+test_read_rejects_unapproved_query_field (test_animal_shelter_enhanced.AnimalShelterEnhancedTests.test_read_rejects_unapproved_query_field) ... ok
+test_update_allows_safe_field_change (test_animal_shelter_enhanced.AnimalShelterEnhancedTests.test_update_allows_safe_field_change) ... ok
+test_update_blocks_protected_id_field (test_animal_shelter_enhanced.AnimalShelterEnhancedTests.test_update_blocks_protected_id_field) ... ok
+test_update_defaults_to_one_document (test_animal_shelter_enhanced.AnimalShelterEnhancedTests.test_update_defaults_to_one_document) ... ok
+test_water_rescue_query_returns_matching_dog (test_animal_shelter_enhanced.AnimalShelterEnhancedTests.test_water_rescue_query_returns_matching_dog) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+OK
