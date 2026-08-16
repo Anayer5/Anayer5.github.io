@@ -1,0 +1,49 @@
+Welcome to the Enhanced Course Planner.
+
+Course Planner Menu
+1. Load course data
+2. Print course list
+3. Print course details
+4. Show validation messages
+9. Exit
+Enter choice: Enter file name: Course data loaded successfully.
+
+Course Planner Menu
+1. Load course data
+2. Print course list
+3. Print course details
+4. Show validation messages
+9. Exit
+Enter choice: 
+Here is a sample schedule:
+CSCI100, Introduction to Computer Science
+CSCI101, Introduction to Programming in C++
+CSCI200, Data Structures
+CSCI300, Introduction to Algorithms
+CSCI400, Software Engineering
+MATH201, Discrete Mathematics
+
+Course Planner Menu
+1. Load course data
+2. Print course list
+3. Print course details
+4. Show validation messages
+9. Exit
+Enter choice: Enter course number: CSCI400, Software Engineering
+Prerequisites: CSCI300, MATH201
+
+Course Planner Menu
+1. Load course data
+2. Print course list
+3. Print course details
+4. Show validation messages
+9. Exit
+Enter choice: No validation warnings.
+
+Course Planner Menu
+1. Load course data
+2. Print course list
+3. Print course details
+4. Show validation messages
+9. Exit
+Enter choice: Thank you for using the course planner.

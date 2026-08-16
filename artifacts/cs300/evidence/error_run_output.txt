@@ -1,0 +1,29 @@
+Welcome to the Enhanced Course Planner.
+
+Course Planner Menu
+1. Load course data
+2. Print course list
+3. Print course details
+4. Show validation messages
+9. Exit
+Enter choice: Enter file name: Course data loaded successfully.
+
+Course Planner Menu
+1. Load course data
+2. Print course list
+3. Print course details
+4. Show validation messages
+9. Exit
+Enter choice: 
+Validation messages:
+- Line 4: duplicate course number skipped: CSCI200
+- Line 5: malformed row skipped. Each row requires a course number and title.
+- Line 3: invalid prerequisite ignored for CSCI200: CSCI999
+
+Course Planner Menu
+1. Load course data
+2. Print course list
+3. Print course details
+4. Show validation messages
+9. Exit
+Enter choice: Thank you for using the course planner.
