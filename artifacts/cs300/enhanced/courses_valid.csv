@@ -1,0 +1,6 @@
+CSCI100,Introduction to Computer Science
+CSCI101,Introduction to Programming in C++,CSCI100
+CSCI200,Data Structures,CSCI101
+CSCI300,Introduction to Algorithms,CSCI200
+MATH201,Discrete Mathematics
+CSCI400,Software Engineering,CSCI300,MATH201

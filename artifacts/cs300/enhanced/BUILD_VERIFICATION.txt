@@ -1,0 +1,14 @@
+Build verification performed in container:
+
+Command:
+g++ -std=c++17 -Wall -Wextra -pedantic CoursePlanner_Enhanced.cpp -o CoursePlanner_Enhanced
+
+Expected result:
+Compilation completes without errors.
+
+Manual runtime checks:
+1. Load courses_valid.csv.
+2. Print sorted course list.
+3. Search for CSCI400 and confirm prerequisites CSCI300 and MATH201.
+4. Load courses_with_errors.csv.
+5. Review validation messages for duplicate course numbers, malformed rows, and invalid prerequisites.

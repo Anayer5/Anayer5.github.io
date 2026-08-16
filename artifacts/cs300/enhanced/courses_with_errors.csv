@@ -1,0 +1,6 @@
+CSCI100,Introduction to Computer Science
+CSCI101,Introduction to Programming in C++,CSCI100
+CSCI200,Data Structures,CSCI101,CSCI999
+CSCI200,Duplicate Data Structures
+BADROWONLY
+CSCI300,Introduction to Algorithms,CSCI200
