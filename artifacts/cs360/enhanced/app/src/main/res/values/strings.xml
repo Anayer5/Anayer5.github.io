@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Event Tracker</string>
+
+    <!-- Login screen -->
+    <string name="login_title">Event Tracker</string>
+    <string name="login_subtitle">Sign in to manage your events</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="btn_create_account">Create Account</string>
+    <string name="msg_login_required">Username and password are required</string>
+    <string name="msg_login_failed">Incorrect username or password</string>
+    <string name="msg_username_taken">That username is already taken</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">My Events</string>
+    <string name="dashboard_empty">No events yet. Tap + to add one.</string>
+    <string name="cd_add_event">Add a new event</string>
+    <string name="cd_delete_event">Delete event</string>
+
+    <!-- Event card labels -->
+    <string name="label_when">When</string>
+    <string name="label_notes">Notes</string>
+
+    <!-- Add / Edit Event -->
+    <string name="add_event_title">Add Event</string>
+    <string name="edit_event_title">Edit Event</string>
+    <string name="hint_event_title">Event title</string>
+    <string name="hint_event_date">Pick a date</string>
+    <string name="hint_event_time">Pick a time</string>
+    <string name="hint_event_notes">Notes (optional)</string>
+    <string name="no_date_set">No date set</string>
+    <string name="no_time_set">No time set</string>
+    <string name="label_sms_reminder">Send SMS reminder on the day</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- SMS permission -->
+    <string name="sms_permission_title">SMS reminder permission</string>
+    <string name="sms_permission_rationale">Event Tracker can send you an SMS reminder on the day of each event. To do this we need permission to send text messages. You can deny this and the app will still work — you just won\'t get SMS reminders.</string>
+    <string name="sms_permission_denied">SMS reminders are disabled. You can enable them later in your phone\'s app settings.</string>
+    <string name="btn_grant">Grant</string>
+    <string name="btn_not_now">Not now</string>
+
+    <!-- Toast / dialog messages -->
+    <string name="msg_account_created">Account created (stub). Logging in.</string>
+    <string name="msg_sms_enabled">SMS reminders enabled</string>
+    <string name="msg_sms_sent">Reminder sent by SMS</string>
+    <string name="msg_sms_failed">Couldn\'t send the SMS reminder</string>
+    <string name="sms_reminder_body">Event Tracker reminder: \"%1$s\" is coming up on %2$s.</string>
+    <string name="msg_event_saved">Event saved</string>
+    <string name="msg_event_updated">Event updated</string>
+    <string name="msg_edit_coming_soon">Edit \"%1$s\" \u2014 coming in Phase 6</string>
+    <string name="dialog_delete_title">Delete event?</string>
+    <string name="dialog_delete_message">Remove \"%1$s\" from your list?</string>
+</resources>
