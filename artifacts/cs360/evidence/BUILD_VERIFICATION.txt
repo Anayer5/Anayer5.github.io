@@ -1,0 +1,29 @@
+Final build verification note:
+The final CS 360 Event Tracking App polish adds a non-destructive schema migration and new unit/instrumented tests. I attempted command-line verification in this container, but the Gradle wrapper cannot download the required Gradle distribution because this environment has no external internet/DNS access.
+
+Environment limitation observed earlier:
+java.net.UnknownHostException: services.gradle.org
+
+Recommended local verification in Android Studio:
+1. Open the enhanced_project folder.
+2. Sync Gradle.
+3. Run local unit tests:
+   ./gradlew test
+   - PasswordHasherTest
+   - InputValidatorTest
+4. Run instrumented tests on an emulator or connected Android device:
+   ./gradlew connectedAndroidTest
+   - EventRepositoryOwnershipInstrumentedTest
+   - DatabaseMigrationInstrumentedTest
+5. Build debug APK:
+   ./gradlew assembleDebug
+
+Manual workflow test to complete locally:
+1. Create account.
+2. Log in.
+3. Add an event with title, date, time, notes, and reminder setting.
+4. Confirm the dashboard displays the event.
+5. Edit the event and confirm the changed values are displayed.
+6. Delete the event and confirm it is removed.
+7. Confirm one user's events are not visible or editable from another user's account.
+8. Verify that a version 1 database upgrades to version 2 without losing users or events.
