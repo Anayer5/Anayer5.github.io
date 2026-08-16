@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_background"
+    tools:context=".DashboardActivity">
+
+    <!-- Top app bar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brand_primary">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/brand_primary"
+            app:title="@string/dashboard_title"
+            app:titleTextColor="@color/text_on_primary" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Empty-state hint, shown when the list is empty -->
+    <TextView
+        android:id="@+id/empty_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/dashboard_empty"
+        android:textColor="@color/text_secondary"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- Event grid -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/event_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="8dp"
+        android:paddingBottom="96dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <!-- Floating action button for "add event" -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/cd_add_event"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/brand_accent"
+        app:tint="@color/text_on_primary" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

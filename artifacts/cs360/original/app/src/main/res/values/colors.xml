@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="brand_primary">#1F3864</color>           <!-- deep navy -->
+    <color name="brand_primary_dark">#152848</color>      <!-- toolbar / status bar -->
+    <color name="brand_primary_light">#3D5A8C</color>     <!-- pressed/hover -->
+    <color name="brand_accent">#B8975A</color>            <!-- warm gold, FAB / accents -->
+
+    <!-- Surfaces -->
+    <color name="surface_background">#F7F7F9</color>      <!-- screen background -->
+    <color name="surface_card">#FFFFFF</color>            <!-- event cards -->
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#5C5C5C</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Semantic -->
+    <color name="error">#B00020</color>
+    <color name="success">#2E7D32</color>
+    <color name="divider">#E0E0E0</color>
+</resources>
