@@ -1,98 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Asher Nayer | CS 499 ePortfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asher Nayer | CS 499 Computer Science ePortfolio</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 1.6;
-      background-color: #f7f7f7;
-      color: #222;
+      background: #f4f6f8;
+      color: #1f2937;
     }
+
     header {
-      background-color: #1f2937;
+      background: #111827;
       color: white;
-      padding: 30px;
-      border-radius: 10px;
+      padding: 40px 24px;
+      text-align: center;
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.3rem;
+    }
+
+    header p {
+      margin: 10px auto 0;
+      max-width: 850px;
+      font-size: 1.05rem;
+    }
+
+    nav {
+      background: #ffffff;
+      border-bottom: 1px solid #d1d5db;
+      padding: 14px 24px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #1d4ed8;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
     section {
       background: white;
-      padding: 25px;
-      margin-top: 20px;
+      border: 1px solid #e5e7eb;
       border-radius: 10px;
+      padding: 26px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
     }
+
+    h2 {
+      margin-top: 0;
+      color: #111827;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      color: #1f2937;
+      margin-bottom: 6px;
+    }
+
     a {
       color: #2563eb;
     }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      overflow-x: auto;
+    }
+
+    th, td {
+      border: 1px solid #d1d5db;
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f3f4f6;
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #1d4ed8;
+      color: white;
+      padding: 10px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #1e40af;
+      text-decoration: none;
+    }
+
+    .secondary {
+      background: #374151;
+    }
+
+    .secondary:hover {
+      background: #1f2937;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
+
+    code {
+      background: #f3f4f6;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 700px) {
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
   </style>
 </head>
-<body>
 
+<body>
   <header>
-    <h1>Asher Nayer</h1>
-    <h2>CS 499 Computer Science ePortfolio</h2>
-    <p>Software Engineering | Algorithms and Data Structures | Databases</p>
+    <h1>Asher Nayer | CS 499 Computer Science ePortfolio</h1>
+    <p>
+      Software Design and Engineering | Algorithms and Data Structures | Databases
+    </p>
+    <p>
+      This ePortfolio presents my professional self-assessment, code review, original artifacts,
+      enhanced artifacts, narratives, and supporting evidence from the Computer Science program.
+    </p>
   </header>
 
-  <section>
-    <h2>Professional Self-Assessment</h2>
-    <p>
-      This ePortfolio represents my growth throughout the Computer Science program.
-      It highlights my ability to design software, analyze algorithms, work with databases,
-      and apply secure coding practices.
-    </p>
-  </section>
+  <nav>
+    <a href="professional-self-assessment.html">Self-Assessment</a>
+    <a href="code-review.html">Code Review</a>
+    <a href="software-design.html">Software Design</a>
+    <a href="algorithms.html">Algorithms</a>
+    <a href="databases.html">Databases</a>
+    <a href="README.html">README</a>
+  </nav>
 
-  <section>
-    <h2>Code Review</h2>
-    <p>
-      My code review video will be added here after it is completed.
-    </p>
-  </section>
+  <main>
+    <section id="self-assessment">
+      <h2>Professional Self-Assessment</h2>
+      <p>
+        The professional self-assessment serves as the formal introduction to this portfolio.
+        It explains how my coursework and artifact enhancements demonstrate my readiness for
+        software engineering and database-centered application development.
+      </p>
 
-  <section>
-    <h2>Artifact One: Software Engineering and Design</h2>
-    <p>
-      <strong>Artifact:</strong> CS 360 Event Tracking Android App
-    </p>
-    <p>
-      This artifact demonstrates mobile application design, user authentication,
-      event management, SQLite storage, and Android UI development.
-    </p>
-  </section>
+      <div class="button-row">
+        <a class="button" href="professional-self-assessment.html">View Professional Self-Assessment</a>
+        <a class="button secondary" href="narratives/CS499_Professional_Self_Assessment_Asher_Nayer.docx">
+          Download Word Document
+        </a>
+      </div>
+    </section>
 
-  <section>
-    <h2>Artifact Two: Algorithms and Data Structures</h2>
-    <p>
-      <strong>Artifact:</strong> CS 300 Course Planner
-    </p>
-    <p>
-      This artifact demonstrates algorithmic problem solving, binary search tree logic,
-      file parsing, course lookup, and runtime analysis.
-    </p>
-  </section>
+    <section id="code-review">
+      <h2>Code Review</h2>
+      <p>
+        The code review explains the original functionality of my selected artifacts, identifies
+        areas for improvement, and describes the planned enhancements across software design,
+        algorithms and data structures, and databases.
+      </p>
 
-  <section>
-    <h2>Artifact Three: Databases</h2>
-    <p>
-      <strong>Artifact:</strong> CS 340 Client/Server Development Project
-    </p>
-    <p>
-      This artifact will demonstrate database design, queries, data retrieval,
-      filtering, and full-stack data interaction.
-    </p>
-  </section>
+      <div class="button-row">
+        <a class="button" href="https://youtu.be/aZE03qVcQnk">Watch Code Review Video</a>
+        <a class="button secondary" href="code-review.html">View Code Review Page</a>
+        <a class="button secondary" href="narratives/CS499_Code_Review_30_Minute_Script_Asher_Nayer.docx">
+          Download Code Review Script
+        </a>
+      </div>
+    </section>
 
-  <section>
-    <h2>GitHub Repositories</h2>
-    <ul>
-      <li><a href="https://github.com/Anayer5/CS-360-13486-M01-Mobile-Architect-Programming-2026">CS 360 Mobile Architecture and Programming</a></li>
-      <li><a href="https://github.com/Anayer5/CS-300-16569-M01-DSA-Analysis-and-Design">CS 300 DSA Analysis and Design</a></li>
-      <li><a href="https://github.com/Anayer5/CS-340-18637-M01-Client-Server-Development-2026">CS 340 Client/Server Development</a></li>
-    </ul>
-  </section>
+    <section id="artifacts">
+      <h2>Selected Artifacts</h2>
 
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Course</th>
+            <th>Artifact</th>
+            <th>Portfolio Page</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Software Design and Engineering</td>
+            <td>CS 360: Mobile Architecture and Programming</td>
+            <td>Event Tracking Android App</td>
+            <td><a href="software-design.html">Software Design and Engineering</a></td>
+          </tr>
+          <tr>
+            <td>Algorithms and Data Structures</td>
+            <td>CS 300: Data Structures and Algorithms: Analysis and Design</td>
+            <td>Course Planner</td>
+            <td><a href="algorithms.html">Algorithms and Data Structures</a></td>
+          </tr>
+          <tr>
+            <td>Databases</td>
+            <td>CS 340: Client/Server Development</td>
+            <td>Grazioso Salvare MongoDB Dashboard</td>
+            <td><a href="databases.html">Databases</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="software-design">
+      <h2>Enhancement One: Software Design and Engineering</h2>
+      <h3>CS 360 Event Tracking Android App</h3>
+      <p>
+        The CS 360 artifact is an Android event tracking application that supports user account
+        creation, login, event creation, event editing, event deletion, and local SQLite persistence.
+        The final enhancement focused on application architecture, maintainability, validation,
+        database design, and security.
+      </p>
+
+      <ul>
+        <li>Added PBKDF2 password hashing.</li>
+        <li>Centralized input validation.</li>
+        <li>Strengthened user-scoped event operations.</li>
+        <li>Added machine-readable timestamp support.</li>
+        <li>Replaced destructive database upgrade behavior with a preserving migration.</li>
+        <li>Added tests for password hashing, ownership checks, and schema migration.</li>
+      </ul>
+
+      <div class="button-row">
+        <a class="button" href="software-design.html">View Software Design Page</a>
+        <a class="button secondary" href="artifacts/cs360/original/">Original Files</a>
+        <a class="button secondary" href="artifacts/cs360/enhanced/">Enhanced Files</a>
+        <a class="button secondary" href="artifacts/cs360/evidence/">Evidence</a>
+        <a class="button secondary" href="narratives/CS360_Enhancement_One_Narrative.docx">
+          Download Narrative
+        </a>
+      </div>
+    </section>
+
+    <section id="algorithms">
+      <h2>Enhancement Two: Algorithms and Data Structures</h2>
+      <h3>CS 300 Course Planner</h3>
+      <p>
+        The CS 300 artifact is a C++ Course Planner application that loads course data from a file
+        and displays courses in alphanumeric order. The final enhancement expanded it into a more
+        complete advising tool by improving lookup, prerequisite validation, file parsing, and
+        data-structure trade-off analysis.
+      </p>
+
+      <ul>
+        <li>Preserved the Binary Search Tree for sorted course output.</li>
+        <li>Added <code>unordered_map</code> lookup for faster course search.</li>
+        <li>Added prerequisite parsing and prerequisite display.</li>
+        <li>Added two-pass prerequisite validation.</li>
+        <li>Added defensive handling for malformed rows, duplicate course numbers, missing files, and invalid prerequisites.</li>
+        <li>Included runtime evidence and a flowchart image.</li>
+      </ul>
+
+      <div class="button-row">
+        <a class="button" href="algorithms.html">View Algorithms Page</a>
+        <a class="button secondary" href="artifacts/cs300/original/">Original Files</a>
+        <a class="button secondary" href="artifacts/cs300/enhanced/">Enhanced Files</a>
+        <a class="button secondary" href="artifacts/cs300/evidence/">Evidence</a>
+        <a class="button secondary" href="narratives/CS300_Enhancement_Two_Narrative.docx">
+          Download Narrative
+        </a>
+      </div>
+    </section>
+
+    <section id="databases">
+      <h2>Enhancement Three: Databases</h2>
+      <h3>CS 340 Grazioso Salvare MongoDB Dashboard</h3>
+      <p>
+        The CS 340 artifact is a client/server dashboard for Grazioso Salvare. It connects a
+        Dash/JupyterDash dashboard to the Austin Animal Center Outcomes MongoDB database through
+        a reusable Python CRUD module. The final enhancement focused on query validation,
+        configuration separation, result limits, safer writes, indexing, and testing evidence.
+      </p>
+
+      <ul>
+        <li>Documented the MongoDB database and collection: <code>aac.animals</code>.</li>
+        <li>Added allowlisted query fields and allowed MongoDB operators.</li>
+        <li>Added result caps to prevent uncontrolled full-collection reads.</li>
+        <li>Added safer update and delete behavior.</li>
+        <li>Separated database configuration from source code using environment variables.</li>
+        <li>Added database-layer tests and optional temporary MongoDB integration test support.</li>
+        <li>Added <code>explain()</code> output generation instructions for a common rescue filter.</li>
+      </ul>
+
+      <div class="button-row">
+        <a class="button" href="databases.html">View Databases Page</a>
+        <a class="button secondary" href="artifacts/cs340/original/">Original Files</a>
+        <a class="button secondary" href="artifacts/cs340/enhanced/">Enhanced Files</a>
+        <a class="button secondary" href="artifacts/cs340/evidence/">Evidence</a>
+        <a class="button secondary" href="narratives/CS340_Enhancement_Three_Narrative.docx">
+          Download Narrative
+        </a>
+      </div>
+    </section>
+
+    <section id="outcomes">
+      <h2>Course Outcomes Demonstrated</h2>
+      <ol>
+        <li>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in computer science.</li>
+        <li>Design, develop, and deliver professional-quality oral, written, and visual communications adapted to specific audiences and contexts.</li>
+        <li>Design and evaluate computing solutions using algorithmic principles and computer science practices while managing design trade-offs.</li>
+        <li>Use well-founded and innovative techniques, skills, and tools to implement computing solutions that deliver value and support industry-specific goals.</li>
+        <li>Develop a security mindset that anticipates adversarial exploits, mitigates design flaws, and protects data and resources.</li>
+      </ol>
+    </section>
+
+    <section id="submission">
+      <h2>Final Submission Materials</h2>
+      <p>
+        This ePortfolio is organized to provide access to the final professional self-assessment,
+        code review, original artifacts, enhanced artifacts, narratives, and testing evidence.
+      </p>
+
+      <div class="button-row">
+        <a class="button" href="README.html">View Repository README</a>
+        <a class="button secondary" href="SUBMISSION_CHECKLIST.html">View Submission Checklist</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <strong>Asher Nayer</strong> | CS 499 Computer Science Capstone |
+      Southern New Hampshire University
+    </p>
+  </footer>
 </body>
 </html>
