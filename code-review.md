@@ -7,7 +7,7 @@
 Example format:
 
 ```markdown
-[View Code Review Video](https://your-video-link-here)
+[View Code Review Video](https://youtu.be/aZE03qVcQnk)
 ```
 
 ## Code Review Purpose
