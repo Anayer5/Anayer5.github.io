@@ -22,6 +22,7 @@ Welcome to my CS 499 Computer Science Capstone ePortfolio. This portfolio presen
 
 - [Professional Self-Assessment Word Document](narratives/CS499_Professional_Self_Assessment_Asher_Nayer.docx)
 - [Code Review Script](narratives/CS499_Code_Review_30_Minute_Script_Asher_Nayer.docx)
+- [Code Review Video](https://youtu.be/aZE03qVcQnk)
 - [Software Design Narrative](narratives/CS360_Enhancement_One_Narrative.docx)
 - [Algorithms Narrative](narratives/CS300_Enhancement_Two_Narrative.docx)
 - [Databases Narrative](narratives/CS340_Enhancement_Three_Narrative.docx)
